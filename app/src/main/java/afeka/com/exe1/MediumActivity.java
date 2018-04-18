@@ -11,6 +11,7 @@ import java.util.Random;
 
 public class MediumActivity extends AppCompatActivity {
 
+
     int[] names= {R.drawable.cupcake, R.drawable.ice_cream, R.drawable.jelly, R.drawable.kitkat,
                   R.drawable.lollipop, R.drawable.donut, R.drawable.eclair,R.drawable.froyo};
     int rows = 4;
