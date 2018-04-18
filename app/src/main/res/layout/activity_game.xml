@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/choose_lvl"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/button_e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/level"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="16dp"
+        android:onClick="btnEasy"
+        android:text="@string/easy" />
+
+    <Button
+        android:id="@+id/button_m"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_e"
+        android:layout_marginStart="16dp"
+        android:onClick="btnMedium"
+        android:text="@string/mid" />
+
+    <Button
+        android:id="@+id/button_h"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_m"
+        android:layout_marginStart="16dp"
+        android:onClick="btnHard"
+        android:text="@string/hard" />
+
+</RelativeLayout>

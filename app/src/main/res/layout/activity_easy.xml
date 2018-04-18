@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/lLayout"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="192dp"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="179dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/name"
+        android:inputType="time" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/name"
+        android:gravity="center">
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toEndOf="@+id/b1" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/b1" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/b2"
+        android:layout_toEndOf="@id/b3" />
+    </RelativeLayout>
+</RelativeLayout>

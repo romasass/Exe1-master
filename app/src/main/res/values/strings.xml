@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Remember This</string>
+    <string name="login_start">Start</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="choose_lvl">Please choose your level</string>
+    <string name="easy">Easy</string>
+    <string name="mid">Medium</string>
+    <string name="hard">Hard</string>
+
+</resources>
